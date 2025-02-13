@@ -1,0 +1,42 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   
+   printf("Yoshiru Kenji\n" );
+   printf("Mabuhay\n" );
+   printf("Ako nalang kasi\n" );
+   
+    int num;
+
+    printf("Enter an integer: ");
+    scanf("%i", &num);
+    printf("You entered number %i" ,num);
+ 
+ float price;
+
+ printf("enter float: ");
+ scanf("%f", &price);
+ printf("You entered number %f" ,price);
+
+ char letter; 
+
+ printf(" enter character: ");
+ scanf("%c", &letter); 
+ printf("You entered number %c" ,letter);
+ 
+ int myNum = 15;
+ float myFloatNum = 5.99;
+ char myLetter = 'D';
+  
+ printf("%d\n", myNum);
+ printf("%.1f\n", myFloatNum);
+ printf("%c\n", myLetter);
+
+ int main() {
+ int x,y,z;
+ x=y=z=50;
+ printf("%d", myNum);
+ 
+ 
+ 
