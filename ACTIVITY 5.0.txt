@@ -1,0 +1,33 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   // YOSHI
+    int x;
+    
+    printf("Enter your GRADE (0-100): ");
+    scanf("%i", &x);
+
+ if(x>100){
+     printf("Error! Grade can only Range to 0-100");
+ 
+ } else if (x>99){  
+     printf("Your grade is A");
+ } else if (x>89){
+     printf("Your grade is B");
+ } else if (x>79){
+     printf("Your grade is C");
+ } else if (x>69){
+    printf("Your grade is D");
+ } else if (x>59){
+      printf("Your grade is F");
+ } else if (x>49){
+      printf("Your grade is F");
+ } else if (x>39){
+      printf("Your grade is F");
+ } else if (x>29){
+      printf("Your grade is F");
+ } 
+
+  return 0;
+}
