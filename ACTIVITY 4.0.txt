@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // pakyo
+    int x, y;
+    printf("Enter your X value - ");
+    scanf("%i", &x);
+    printf("Enter your Y value- ");
+scanf("%i", &y);
+ if(x<20){
+     printf("Good Morning Love,");
+ } else if (x>30){  
+     printf("Good Evening Love,");
+ } else {
+     printf(" i love you.");
+ }
+ if (y<20){
+       printf(" Good Morning Love,");
+ } else if (y>30){
+   printf("Good Evening Love,");
+ } else {
+  printf(" i love you.");
+ }
+    return 0;
+}
