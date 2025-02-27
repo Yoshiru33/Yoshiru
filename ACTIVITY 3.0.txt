@@ -1,0 +1,47 @@
+int main() {
+    
+ char fname [50],  mname [50], lname [50];
+ int birthyear, age, currentyear, fnumber, snumber, addnumber, subnumber, mulnumber, divnumber;
+ 
+ currentyear = 2025;
+ 
+ //first Name
+  printf(" Enter First name:");
+  scanf("%s", &fname); 
+
+//Middle Name
+ printf(" Enter Middle name:");
+   scanf("%s", &mname); 
+ 
+ //Last Name
+ printf(" Enter Last Name:");
+   scanf("%s", &lname); 
+ 
+//Year
+printf(" Enter Birthyear:");
+scanf("%d", &birthyear);
+age= currentyear - birthyear;
+
+//first nume
+printf(" Enter first number:");
+scanf("%d", &fnumber);
+
+//second number
+printf(" Enter second number:");
+scanf("%d", &snumber);
+
+
+//print
+printf("\n");
+printf("first name: %s\n", fname);
+printf("middle name: %s\n", mname);
+printf("last name: %s\n", lname);
+printf("age: %i\n", age);
+printf("additional result: %i\n", fnumber+snumber);
+printf("subtraction result: %i\n", fnumber-snumber);
+printf("multiplication result: %i\n", fnumber*snumber);
+printf("division result: %i\n", fnumber/snumber);
+
+    return 0;
+    
+}
