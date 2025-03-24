@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+void calculatesum() {int x = 5; int y = 10;
+    int sum = x + y;
+    
+        printf("The sum of x + y is %d\n", sum);
+}
+
+void calculateproduct() {int x = 5; int y = 10;
+    int product = x * y;
+    
+        printf("The product of x * y is %d\n", product);
+}    
+void calculatequotient() {int x = 5; int y = 10;
+        int quotient = x/y;
+        
+            printf("The quotient of x / y is %d\n", quotient);
+}
+
+void calculatediff() {int x = 5; int y = 10;
+        int diff = x - y;
+        
+            printf("The difference of x - y is %d", diff);
+}
+
+int main() {
+
+        calculatesum();
+        calculateproduct();
+        calculatequotient();
+        calculatediff();
+        
+    return 0;
+}
