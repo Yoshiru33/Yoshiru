@@ -1,0 +1,63 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void add(float x, float y) {
+    printf("Result: %.2f\n",x + y);
+}
+
+void subtract(float x, float  y) {
+    printf("Result: %.2f\n", x -  y);
+}
+
+void multiply(float x, float y) {
+    printf("Result: %.2f\n", x *  y);
+}
+
+void divide(float x, float  y) {
+    if ( y != 0)
+        printf("Result: %.2f\n", x /  y);
+    else
+        printf("Error! Division by zero.\n");
+}
+
+void add(float x, float y);
+void subtract(float x, float  y);
+void multiply(float x, float  y);
+void divide(float x, float  y);
+
+int main() {
+    int choice;
+    float x, y;
+
+   
+    printf("Select an operation:\n 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n");
+    
+
+    // para sa operations
+    printf("Enter your choice (1-4): ");
+    scanf("%d", &choice);
+
+    // two numbers para masolve
+    printf("Enter two numbers: ");
+    scanf("%f %f", &x, &y);
+
+        
+    switch(choice) {
+        case 1:
+            add(x, y);
+            break;
+        case 2:
+            subtract(x, y);
+            break;
+        case 3:
+            multiply(x, y);
+            break;
+        case 4:
+            divide(x, y);
+            break;
+        default:
+            printf("error ni bobo\n");
+    }
+
+    return 0;
+}
