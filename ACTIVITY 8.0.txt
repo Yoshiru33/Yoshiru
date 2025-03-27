@@ -14,10 +14,8 @@ void multiply(int x, int y) {
 }
 
 void divide(int x, int  y) {
-    if ( y != 0)
-        printf("Result: %d\n", x /  y);
-    else
-        printf("Error! Division by zero.\n");
+  printf("Result: %d\n", x /  y);
+   
 }
 
 void add(int x,int y);
